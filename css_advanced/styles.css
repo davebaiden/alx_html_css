@@ -1,10 +1,88 @@
-header .logo{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+.nav-bar{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 8px;
-    text-transform: uppercase;
+}
+/*logo*/
+.logo{
+    height: 20px;    
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 6px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links a:hover {
+  color: #c271ff;
+}
+
+.banner {
+  background-image: url("CSS Advanced/Object.png"); /* update path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+.banner, #schooled, h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#schooled h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.pros {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.pros h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.pros-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.pro {
+  max-width: 200px;
+}
+
+.pro img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.pro h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.pro p {
+  font-size: 14px;
+  color: #666;
 }
