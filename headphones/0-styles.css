@@ -1,0 +1,11 @@
+header{
+    align-items: center;
+}
+
+button{
+    background-color: #FF6565;
+    color: white;
+    align-content: center;
+    border-radius: 10px;
+
+}
